@@ -8,17 +8,17 @@ package com.mycompany.eva2_2_linket_list;
  *
  * @author hecto
  */
-public class Nodo {
+public class Nodo1 {
     private int valor;
-    private Nodo siguiente;
+    private Nodo1 siguiente;
     
-    public Nodo(){
+    public Nodo1(){
     this.valor = 0;
     this.siguiente = null;
     
     }
 
-    public Nodo(int valor) {
+    public Nodo1(int valor) {
         this.valor = valor;
         //this.siguiente = siguiente;
     }
@@ -27,7 +27,7 @@ public class Nodo {
         return valor;
     }
 
-    public Nodo getSiguiente() {
+    public Nodo1 getSiguiente() {
         return siguiente;
     }
 
@@ -35,7 +35,7 @@ public class Nodo {
         this.valor = valor;
     }
 
-    public void setSiguiente(Nodo siguiente) {
+    public void setSiguiente(Nodo1 siguiente) {
         this.siguiente = siguiente;
     }
     
